@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 20%;
+}
+
+.appImg {
+  width: 45%;
+}
+.app-name {
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .app-container {
+    width: 25%;
+  }
+  .app-name {
+    font-size: 12px;
+  }
+}

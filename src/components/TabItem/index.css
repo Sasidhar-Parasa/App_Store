@@ -1,0 +1,19 @@
+.tabItem-options {
+  font-family: 'Lato';
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.active-tab {
+  font-weight: bold;
+  color: #2563eb;
+  border-bottom: 3px solid #2563eb;
+}
+.normal-tab {
+  border-bottom: 1px solid #7b8794;
+  color: #7b8794;
+}

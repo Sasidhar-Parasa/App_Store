@@ -1,0 +1,55 @@
+.App-store-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.title {
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 42px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 6px;
+  min-width: 300px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.search-bar {
+  outline: none;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: transparent;
+  flex-grow: 1;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.search-icon {
+  width: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.tabItem-container {
+  display: flex;
+  padding-left: 0;
+  min-width: 200px;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.appList-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+}
+@media (max-width: 768px) {
+  .appList-container {
+    align-self: flex-start;
+  }
+}
