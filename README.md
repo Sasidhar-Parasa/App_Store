@@ -1,6 +1,5 @@
 PUBLISHED WEBSITE LINK : https://reactappbazaar.ccbp.tech/
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
-
+In this project, let's build an **App Store** 
 ### Refer to the image below:
 
 <br/>
