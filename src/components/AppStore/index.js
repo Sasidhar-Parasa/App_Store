@@ -319,7 +319,7 @@ class AppStore extends Component {
     )
     return (
       <div className="App-store-container">
-        <h1 className="title">App Store</h1>
+        <h1 className="title">PortrAIt</h1>
         <div className="search-container">
           <input
             className="search-bar"
